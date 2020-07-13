@@ -31,35 +31,35 @@ When creating new line features, populate the **name** and **type** fields at a 
 
 When contributing new features to the data the type field must be populated with one of the following values:
 
--peninsula
--tundra
--sea
--geoarea
--gulf
--bay
--strait
--channel
--pen/cape
--island group
--isthmus
--lowland
--plain
--plateau
--wetlands
--valley
--desert
--island
--delta
--coast
--basin
--range/mtn
--foothills
--gorge
--fjord
--sound
--inlet
--lagoon
--river
+* peninsula
+* tundra
+* sea
+* geoarea
+* gulf
+* bay
+* strait
+* channel
+* pen_cape
+* island_group
+* isthmus
+* lowland
+* plain
+* plateau
+* wetlands
+* valley
+* desert
+* island
+* delta
+* coast
+* basin
+* range_mtn
+* foothills
+* gorge
+* fjord
+* sound
+* inlet
+* lagoon
+* river
 
 ## Verification
 We are relying on checking each other's work for validity and accuracy. There is a **verified** field in the data which will be populated with yes/no if a feature has been verified to exist by another contributor. This way we can edit and assure accuracy and a user of the data can choose if they want to show all or only verified features on their maps. 
