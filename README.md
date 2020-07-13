@@ -2,7 +2,7 @@
 OpenSource lines for cartographic labeling of physical geographic features
 
 ## Brief
-The purpose of this repository and data is to start a centralized dataset of lines representing physical features used for labeling in various types of cartographic outputs. As of its creation it consists of approximately 1300 geographic line features covering both land and sea globally. The data primarily represents small scale physical features with the hope of growing it into a dataset useful at all scales. 
+The purpose of this repository and data is to start a centralized dataset of lines representing physical features used for labeling in various types of cartographic outputs. As of its creation it consists of approximately 1300 geographic line features covering both land and sea globally. The data primarily represents small scale physical features with more detail in the contiguous USA thanks to Tom Patterson's map. The goal is to grow the extent and detail of the lines so they are useful at all scales. 
 
 The intial data was created from two different sources. 
 
