@@ -3,6 +3,6 @@
 # If you are a fequent contributor I may ask if you'd like to become a code owner
 # These owners will be the default owners for everything in
 # the repo. Unless a later match takes precedence,
-# @leefrance will be requested for
+# @leefrance or @jczaplew will be requested for
 # review when someone opens a pull request.
-*       @leefrance
+*       @leefrance @jczaplew
