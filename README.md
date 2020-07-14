@@ -20,46 +20,60 @@ The data consists of single line features with fields for:
 *   date_edited
 *   verified
 
+### Type Field
+All features currently exist as one of the following types:
+
+* basin
+* bay
+* canyon
+* channel
+* coast
+* delta
+* desert
+* fjord
+* foothills
+* geoarea
+* gorge
+* gulch
+* gulf
+* inlet
+* island
+* island_group
+* isthmus
+* lagoon
+* lowland
+* pen_cape
+* peninsula
+* plain
+* plateau
+* range_mtn
+* ridge
+* river
+* sea
+* sound
+* strait
+* tundra
+* valley
+* wetlands
+
+### Scalerank
+Natural Earth derived ranking number from 0 to 9. Lower numbers being of greater significance on the map, higher numbers being smaller and less prominent features.
+
+### Min and Max Zoom
+If using the data for vector or raster tiles the min and max zoom fields help determine when during the zoom a feature should appear on the map
+
+### Dates added and edited
+Date added is the date that the feature was initially added to the data. Date edited will be populated if someone makes changes to a feature
+
+### Verified
+Yes or null values if the feature has been verified for accuracy and validity by another user
+
 ## Contributing
 This project is at the ground floor with the hopes that the cartographic community will get involved and expand upon this data for the benefit of all map makers. For now the data exists as one simple geojson file. In time, if involvement increases and the data grows we will explore necessary avenues to improving upon the editing and contribution process.
 
 For now, clone the repository and create a separate branch then edit/add features in whatever GIS editing platform you prefer.
 
-When creating new line features, populate the **name** and **type** fields at a minimum. Other fields, if left blank, will be autopopulated as a pre-commit hook. 
-
-### Type Field
-
-When contributing new features to the data the type field must be populated with one of the following values:
-
-* peninsula
-* tundra
-* sea
-* geoarea
-* gulf
-* bay
-* strait
-* channel
-* pen_cape
-* island_group
-* isthmus
-* lowland
-* plain
-* plateau
-* wetlands
-* valley
-* desert
-* island
-* delta
-* coast
-* basin
-* range_mtn
-* foothills
-* gorge
-* fjord
-* sound
-* inlet
-* lagoon
-* river
+When creating new line features, populate the **name** and **type** fields at a minimum. When contributing new features to the data the type field must be populated with one of the existing values listed above. Other fields, if left blank, will be autopopulated.
 
 ## Verification
 We are relying on checking each other's work for validity and accuracy. There is a **verified** field in the data which will be populated with yes/no if a feature has been verified to exist by another contributor. This way we can edit and assure accuracy and a user of the data can choose if they want to show all or only verified features on their maps. If you want to help verify new features clone the repo and view/edit in your favorite GIS program and add _yes_ to any new features you verify for accuracy. If you discover errors you may correct them and then update the **date_edited** field as well.
