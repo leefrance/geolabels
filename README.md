@@ -75,8 +75,5 @@ For now, clone the repository and create a separate branch then edit/add feature
 
 When creating new line features, populate the **name** and **type** fields at a minimum. When contributing new features to the data the type field must be populated with one of the existing values listed above. Other fields, if left blank, will be autopopulated.
 
-**Merge Conflicts**
-If multiple people are working on the data at the same time, merge conflicts will arise. Don't fear, github doesn't have great handling of merge conflicts with json files. I find that performing a pull from master into your branch, then opening the conflicting geojson file in a program like VS Code, scrolling to the area of conflict and select 'accept both changes' will resolve the issue and your branch can be merged
-
 ## Verification
 We are relying on checking each other's work for validity and accuracy. There is a **verified** field in the data which will be populated with yes/no if a feature has been verified to exist by another contributor. This way we can edit and assure accuracy and a user of the data can choose if they want to show all or only verified features on their maps. If you want to help verify new features clone the repo and view/edit in your favorite GIS program and add _yes_ to any new features you verify for accuracy. If you discover errors you may correct them and then update the **date_edited** field as well.
