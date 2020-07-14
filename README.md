@@ -75,6 +75,9 @@ For now, clone the repository and create a separate branch then edit/add feature
 
 When creating new line features, populate the **name** and **type** fields at a minimum. When contributing new features to the data the type field must be populated with one of the existing values listed above. Other fields, if left blank, will be autopopulated later.
 
+## Data to Add
+If you don't want to go through the process of adding line features to the geolabels.geojson but have some good line or polygon data you'd like to see added as more geolabels, please include a link to it here as long as the data is free to use.
+
 **Merge Conflicts**
 If multiple people are working on the dataset at the same time merge conflicts will arise when new features are added. You can resolve conflicts by performing a git pull on master into your branch, and opening the conflicting file in a program like VS Code. Scroll to the area of conflict and _accept both changes_. There will likely be a missing comma at the point your new features were inserted so you'll need to fix that for it to be a valid geojson. Using something like [Mapbox geojsonhint](https://github.com/mapbox/geojsonhint) will pinpoint where exactly in the geojson syntax errors occur, as I have yet to find a VS Code linter for geojson files.
 
