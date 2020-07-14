@@ -60,13 +60,13 @@ All features currently exist as one of the following types:
 Natural Earth derived ranking number from 0 to 9. Lower numbers being of greater significance on the map, higher numbers being smaller and less prominent features.
 
 ### Min and Max Zoom
-If using the data for vector or raster tiles the min and max zoom fields help determine when during the zoom a feature should appear on the map
+If using the data for vector or raster tiles the min and max zoom fields help determine when during the zoom a feature should appear on the map.
 
 ### Dates added and edited
-Date added is the date that the feature was initially added to the data. Date edited will be populated if someone makes changes to a feature
+Date added is the date that the feature was initially added to the data. Date edited will be populated if someone makes changes to a feature.
 
 ### Verified
-Yes or null values if the feature has been verified for accuracy and validity by another user
+Yes or null values if the feature has been verified for accuracy and validity by another user.
 
 ## Contributing
 This project is at the ground floor with the hopes that the cartographic community will get involved and expand upon this data for the benefit of all map makers. For now the data exists as one simple geojson file. In time, if involvement increases and the data grows we will explore necessary avenues to improving upon the editing and contribution process.
