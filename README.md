@@ -10,6 +10,8 @@ The intial data was created from two different sources.
 *   Lines extracted from Tom Patterson's new [Physical Map of the Contiguous US](http://www.shadedrelief.com/us-physical/) using MapPublisher. 
 
 ## The Data
+There are two datasets present in this repository. The geojson file in **working_dataset is the one that all pull requests should be against**. The other, **master_dataset** is meant to be a final polished copy with some empty fields automatically populated.
+
 The data consists of single line features with fields for:
 *   name
 *   type
