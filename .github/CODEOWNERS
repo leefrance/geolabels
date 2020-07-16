@@ -1,0 +1,8 @@
+# Geolabels code owners
+# If you'd like to become a code owner to review pull requests please contact the repository owner
+# If you are a fequent contributor I may ask if you'd like to become a code owner
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @leefrance or @jczaplew will be requested for
+# review when someone opens a pull request.
+*       @leefrance @jczaplew
