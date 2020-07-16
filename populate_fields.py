@@ -2,21 +2,24 @@
 import json
 from shapely.geometry import shape
 import datetime
+import pprint
 
-input_file = "working_dataset/geolabels.geojson"
-output_file = "master_dataset/geolabels_master.geojson"
+input_file = "geolabels/new_geolabels.geojson"
+output_file = "geolabels/geolabels.geojson"
 date_object = datetime.date.today()
 
 with open(input_file) as data:
     geojson = json.load(data)
+    print("json data loaded")
     features = geojson.get('features')
+    print("features loaded")
     for line in features:
-        length = shape(line['geometry']).length
-        scalerank = line['properties']['scalerank']
-        minzoom = line['properties']['minzoom']
-        maxzoom = line['properties']['maxzoom']
-        date_added = line['properties']['date_added']
         name = line['properties']['name']
+        length = shape(line['geometry']).length
+        minzoom = line['properties'].get('minzoom', None)
+        maxzoom = line['properties'].get('maxzoom', None)
+        scalerank = line['properties'].get('scalerank', None)
+        date_added = line['properties'].get('date_added', None)
         if length >= 2000000 and scalerank == None and str.isupper(name) == True:
             line['properties']['scalerank'] = 0
             line['properties']['minzoom'] = 2
