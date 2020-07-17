@@ -94,7 +94,7 @@ If merge conflicts arise when editing `data/___original_geolabels.geojson` you c
 We are relying on checking each other's work for validity and accuracy. There is a **verified** field in the data which will be populated with `yes` if a feature has been verified to exist by another contributor. This way we can edit and assure accuracy and a user of the data can choose if they want to show all or only verified features on their maps. If you want to help verify new features clone the repo and view/edit in your favorite GIS program and add `yes` to any new features you verify for accuracy. If you discover errors you may correct them and then update the **date_edited** field as well.
 
 ## Data to Add
-If you don't want to go through the process of adding line features to the geolabels.geojson but have some good line or polygon data you'd like to see added as more geolabels, please include a link to it here as long as the data is free to use.
+If you don't want to go through the process of adding line features to the geolabels.geojson but have some good line or polygon data you'd like to see added as more geolabels, please include a link to it in the `data_to_add.md` file, as long as the data is free to use.
 
 ## Codeowners
 If you would like to become a code owner and help with reviewing pull requests and managing the repo please let me know!
