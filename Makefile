@@ -7,6 +7,6 @@ geolabels: new_geolabels.geojson
 	python3 populate_fields.py
 	# cleanup processing
 	rm data/___original_geolabels.geojson
-	mv -v data/*.geojson data/archived
+	mv data/*.geojson data/archived
 	cp -r geolabels/new_geolabels.geojson data/___original_geolabels.geojson
 	rm -rf geolabels/new_geolabels.geojson
