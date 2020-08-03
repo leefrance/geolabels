@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "lf_contribution_20200803",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Wallowa Mountains", "type": "range_mtn", "minzoom": null, "maxzoom": null, "scalerank": null, "date_added": null, "date_edited": null, "verified": null }, "geometry": { "type": "LineString", "coordinates": [ [ -13088755.85560261271894, 5683946.889502783305943 ], [ -13082661.468210577964783, 5675184.76129996124655 ], [ -13075556.640575107187033, 5664696.682409503497183 ], [ -13069128.463190633803606, 5655477.322739666327834 ], [ -13064053.586308153346181, 5648541.657666944898665 ], [ -13055933.783296186476946, 5639322.297997107729316 ], [ -13049421.024630337953568, 5632978.701894008554518 ], [ -13040370.827523250132799, 5625535.549133039079607 ] ] } }
+]
+}
